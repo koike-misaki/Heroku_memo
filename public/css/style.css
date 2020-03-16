@@ -1,0 +1,523 @@
+@media screen and (min-width: 767px) { 
+    body {
+        background-color: #FFF;
+        font-size: 14px;
+        color: #333;
+        margin:0;
+    }
+    
+    h1,h2,h3,h4,h5 {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    
+    header {
+        margin-top: 20px;
+    }
+    
+    .main {
+        width : 80%;
+        margin: 50px auto;
+    }
+    
+    .container {
+        width : 80%;
+        margin: 40px auto;
+    }
+    
+    .container-2 {
+        width : 80%;
+        height: 500px;
+        margin: 40px auto;
+    }
+    
+    
+    .header-title-area {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        font-size: 32px;
+    }
+    
+    .text-sub {
+        color: #777;
+    }
+    
+    .header-navigation {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: double 5px #FF99CC;
+    border-top:  double 5px #FF99CC;
+    }
+    
+    .header-navigation:after {
+    clear: both;
+    display: block;
+    content: " ";
+    }
+    
+    .header-navigation li {
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    list-style-type: none;
+    }
+    
+    .header-navigation li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    .text-title {
+        font-size: 24px;
+        font-weight: bold;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .cond_text_title {
+        font-size: 20px;
+        width: 100%;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 0 0px 100px;
+    }
+    
+    .cond_text_area {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 40px; 
+    }
+    
+    .card-contents {
+        padding: 40px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+    
+    .copyright {
+    color: #777;
+    text-align: center;
+    }
+    
+    
+    .form-control {
+        width: 800px;
+        display: block;
+        padding: 10px;
+    }
+    
+    .form-control-2 {
+        width: 100px;
+        display: inline-block;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .btn {
+        display: inline-block;
+        background-color: #FFCCCC;
+        width: 120px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    
+    .btn-2 {
+        display: inline-block;
+        background-color: #99CCFF;
+        width: 120px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    
+    .text {
+        width: 300px;
+        display: block;
+        margin-left: 40px;
+        margin-bottom: 40px;   
+    }
+    
+    .all_memo_table td {
+        width: 230px;
+        margin: 0 auto;
+        border : solid 1px #999999;
+        text-align:center;
+        height: 30px;
+    }
+    
+    .all_memo_title th {
+        width: 230px;
+        height: 40px;
+        font-size: 14px;
+        background-color: #FFDDFF ;
+        margin: 0 auto;
+        border : solid 1px #999999;
+    }
+    
+    .all_memo_title {
+        margin: 0 auto;
+    }
+    
+    .cond_form {
+        display: inline-block;
+        width: 550px;
+        height: 30px;
+        float: left;
+        margin: 10px 10px 10px 100px;
+    }
+    
+    .left {
+        float: left;
+        display: block;
+        width: 50%;
+        border-radius: 10px;
+        padding: 5px 5px 5px 10px;
+        color: #555;
+        font-size: 16px;
+        background: #FFEEFF;
+        margin : 10px 10px 10px 10px;
+    }
+    
+    .right {
+        width: 50%;
+        display: block;
+        float: right;
+        border-radius: 10px;
+        padding: 5px 5px 5px 10px;
+        color: #555;
+        font-size: 16px;
+        background: #e0edff;
+        margin : 10px 10px 10px 10px;
+    }
+    
+    .member {
+        height: 30px;
+        text-align: center;
+        border-top : solid 1px #808080;
+        border-bottom : solid 1px #808080;
+        font-size: 14px;
+        margin: 10px 2px 10px 2px;
+        padding-top: 10px;
+        font-weight: bold;
+        background: linear-gradient(#FFE4E1, #FFF);
+    }
+    
+    .detail_edit a, .detail_delete a {
+        float: right;
+        font-size: 13px;
+        margin : 0 10px 0 10px;
+    }
+    
+    .image-area {
+        width: 300px;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    .image {
+        width: 100%;
+    }
+    
+    .image-area p{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .text-open {
+        font-size: 22px;
+        font-weight: bold;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+        background-color: #FFD5EC;
+    }
+    
+    .color-p {
+        color: #FF0000;   
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .text-open-2 {
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        display: block;
+        background-color: #FF1A6F;
+        height: 50px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .text-open-2 p{
+        padding: 10px;
+        color: #FFF;
+    }
+}
+
+@media screen and (max-width: 479px) { 
+    body {
+        background-color: #FFF;
+        font-size: 14px;
+        color: #333;
+        margin:0;
+    }
+    
+    h1,h2,h3,h4,h5 {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    
+    header {
+        margin-top: 20px;
+    }
+    
+    .main {
+        width : 80%;
+        margin: 50px auto;
+    }
+    
+    .container {
+        width : 100%;
+        margin: 40px auto;
+    }
+    
+    .container-2 {
+        height: 700px;
+    }
+    
+    
+    .header-title-area {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        font-size: 32px;
+    }
+    
+    .text-sub {
+        color: #777;
+    }
+    
+    .header-navigation {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: double 5px #FF99CC;
+    border-top:  double 5px #FF99CC;
+    }
+    
+    .header-navigation:after {
+    clear: both;
+    display: block;
+    content: " ";
+    }
+    
+    .header-navigation li {
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+    }
+    
+    .header-navigation li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    .text-title {
+        font-size: 24px;
+        font-weight: bold;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .cond_text_title {
+        font-size: 20px;
+        width: 100%;
+        font-weight: bold;
+        display: block;
+    }
+    
+    .cond_text_area {
+        width: 100%;
+        display: block;
+        margin-bottom: 40px; 
+    }
+    
+    .card-contents {
+        padding: 40px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+    
+    .copyright {
+    color: #777;
+    text-align: center;
+    }
+    
+    
+    .form-control {
+        width: 300px;
+        display: block;
+        padding: 10px;
+    }
+    
+    .form-control-2 {
+        width: 100px;
+        display: inline-block;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .btn {
+        display: inline-block;
+        background-color: #FFCCCC;
+        width: 120px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    
+    .btn-2 {
+        display: block;
+        background-color: #99CCFF;
+        width: 100px;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 0px;
+        text-align: center;
+    }
+    
+    .text {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;   
+    }
+    
+    .all_memo_table td {
+        width: 230px;
+        margin: 0 auto;
+        border : solid 1px #999999;
+        text-align:center;
+        height: 30px;
+    }
+    
+    .all_memo_title th {
+        width: 230px;
+        height: 40px;
+        font-size: 14px;
+        background-color: #FFDDFF ;
+        margin: 0 auto;
+        border : solid 1px #999999;
+    }
+    
+    .all_memo_title {
+        margin: 0 auto;
+    }
+    
+    .cond_form {
+        display: block;
+        width: 300px;
+        height: 20px;
+        float: left;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    .left {
+        float: left;
+        display: block;
+        width: 50%;
+        border-radius: 10px;
+        padding: 5px 5px 5px 10px;
+        color: #555;
+        font-size: 16px;
+        background: #FFEEFF;
+        margin : 10px 10px 10px 10px;
+    }
+    
+    .right {
+        width: 50%;
+        display: block;
+        float: right;
+        border-radius: 10px;
+        padding: 5px 5px 5px 10px;
+        color: #555;
+        font-size: 16px;
+        background: #e0edff;
+        margin : 10px 10px 10px 10px;
+    }
+    
+    .member {
+        height: 30px;
+        text-align: center;
+        border-top : solid 1px #808080;
+        border-bottom : solid 1px #808080;
+        font-size: 14px;
+        margin: 10px 2px 10px 2px;
+        padding-top: 10px;
+        font-weight: bold;
+        background: linear-gradient(#FFE4E1, #FFF);
+    }
+    
+    .detail_edit a, .detail_delete a {
+        float: right;
+        font-size: 13px;
+        margin : 0 10px 0 10px;
+    }
+    
+    .image-area {
+        width: 300px;
+        display: block;
+    }
+    
+    .image {
+        width: 100%;
+    }
+    
+    .image-area p{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .text-open {
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 0;
+        background-color: #FFD5EC;
+    }
+    
+    .color-p {
+        color: #FF0000;   
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .text-open-2 {
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        background-color: #FF1A6F;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .text-open-2 p{
+        padding: 10px;
+        color: #FFF;
+    }
+}
